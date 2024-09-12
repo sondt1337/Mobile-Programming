@@ -3,7 +3,7 @@ Mobile Programming Homework/Assignment - Le Ba Vui
 
 ## Cách tải và sử dụng Install IntelliJ IDEA
 ### Cài đặt JDK (Java Development Kit)
-Kiểm tra đã cài đặt JDK trước đây hay chưa thông qua lệnh:
+Kiểm tra đã cài đặt JDK trước đây hay chưa thông qua lệnh (sử dụng Command Prompt hoặc Terminal):
 ```
 javac -version
 ```
