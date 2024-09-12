@@ -8,6 +8,8 @@ Kiểm tra đã cài đặt JDK trước đây hay chưa thông qua lệnh (sử
 javac -version
 ```
 
+![image](https://github.com/user-attachments/assets/b421e150-765c-4024-8ea0-2196532b590e)
+
 Nếu chưa từng cài đặt JDK trước đây, truy cập http://www.oracle.com/technetwork/java/javase/downloads/index.html để tải
 
 ![image](https://github.com/user-attachments/assets/3bda8d36-bd02-4af9-877a-868b23f64f6e)
