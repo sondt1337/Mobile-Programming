@@ -1,5 +1,5 @@
-# Mobile Programming HW
-Mobile Programming HW - Thầy Le Ba Vui
+# Mobile Programming Homework/Assignment
+Mobile Programming Homework/Assignment - Le Ba Vui
 
 ## Cách tải và sử dụng Install IntelliJ IDEA
 ### Cài đặt JDK (Java Development Kit)
