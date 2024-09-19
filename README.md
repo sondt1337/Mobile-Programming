@@ -1,12 +1,14 @@
-# Mobile Programming HW
-Mobile Programming HW - Thầy Le Ba Vui
+# Mobile Programming Homework/Assignment
+Mobile Programming Homework/Assignment - Le Ba Vui
 
 ## Cách tải và sử dụng Install IntelliJ IDEA
 ### Cài đặt JDK (Java Development Kit)
-Kiểm tra đã cài đặt JDK trước đây hay chưa thông qua lệnh:
+Kiểm tra đã cài đặt JDK trước đây hay chưa thông qua lệnh (sử dụng Command Prompt hoặc Terminal):
 ```
 javac -version
 ```
+
+![image](https://github.com/user-attachments/assets/b421e150-765c-4024-8ea0-2196532b590e)
 
 Nếu chưa từng cài đặt JDK trước đây, truy cập http://www.oracle.com/technetwork/java/javase/downloads/index.html để tải
 
