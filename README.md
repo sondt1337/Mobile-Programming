@@ -1,6 +1,24 @@
 # Mobile Programming Homework/Assignment
 Mobile Programming Homework/Assignment - Le Ba Vui
 
+## Cách tải và sử dụng Android Studio
+### Cài đặt Android Studio (Windows)
+Truy cập link https://developer.android.com/studio và tải bản mới nhất 
+
+![image](https://github.com/user-attachments/assets/ce8b0442-181b-4550-8c89-5ee10d506dcd)
+
+Sau khi tải về thì tiến hành chạy file exe vừa tải 
+
+![image](https://github.com/user-attachments/assets/4d17e749-0ff0-44c7-8842-bca2b464bef5)
+
+Sau đó next toàn bộ và cài đặt
+
+Lưu ý ở bước Setup Wizard thì ở mỗi phần yêu cầu tải đều chọn Accept hết
+
+![image](https://github.com/user-attachments/assets/bea7c62f-0907-43f0-aba1-c050e380f82d)
+
+Sau đó Finish để chờ tải là xong!
+
 ## Cách tải và sử dụng Install IntelliJ IDEA
 ### Cài đặt JDK (Java Development Kit)
 Kiểm tra đã cài đặt JDK trước đây hay chưa thông qua lệnh (sử dụng Command Prompt hoặc Terminal):
