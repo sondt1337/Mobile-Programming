@@ -13,15 +13,17 @@ import java.util.Random
 class MainActivity : AppCompatActivity() {
     private lateinit var lv: ListView
 
-    private val gmailTitle = listOf("Edurila.com", "Chris Abad", "Tuto.com", "support", "Matt from lonic")
+    private val gmailTitle = listOf("EduOnline.com", "Alex Johnson", "LearnPro.com", "Customer Support", "John from DevCo")
 
-    private val gmailTime = listOf("12:34 PM", "11:22 AM", "11:04 AM", "10:26 AM", "9:30 AM")
+    private val gmailTime = listOf("3:15 PM", "1:40 PM", "11:55 AM", "10:05 AM", "8:45 AM")
 
-    private val gmailText = listOf("$19 Only (Frist 10 spots) - Destselling...\nAre you looking to Learn Web Designin...",
-        "Help make Campaign Monitor better\nLet us know your thoughts! No Images...",
-        "8h de formation gratuite et les nouvea...\nPhotoshop, SEO, Blender, CSS, Wordpre...",
-        "Société Ovh: suivi de vos services - hp...\nSAS OVH - http://www.ovh.com 2 rue K...",
-        "The New lonic Creator Is Here!\nAnnouncing the all-new Creator, build...")
+    private val gmailText = listOf(
+        "Only $25 for early bird - Limited spots...\nWant to master Web Development? Start...",
+        "Your feedback is invaluable!\nTell us how we can improve. No images...",
+        "Free courses and new updates...\nPhotoshop, SEO, JavaScript, Web Dev...",
+        "Order confirmation - services update...\nCompany XYZ - https://www.xyz.com 3 Maple St...",
+        "Introducing the New DevCreator!\nAll-new features to design and deploy..."
+    )
 
     private val myList: ArrayList<User> = ArrayList()
 
