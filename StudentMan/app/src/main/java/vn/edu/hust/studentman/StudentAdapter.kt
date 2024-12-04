@@ -13,10 +13,10 @@ import com.google.android.material.snackbar.Snackbar
 class StudentAdapter(private val students: MutableList<StudentModel>) : RecyclerView.Adapter<StudentAdapter.StudentViewHolder>() {
 
   class StudentViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    val textStudentName: TextView = itemView.findViewById(R.id.text_student_name)
-    val textStudentId: TextView = itemView.findViewById(R.id.text_student_id)
-    val imageEdit: ImageView = itemView.findViewById(R.id.image_edit)
-    val imageRemove: ImageView = itemView.findViewById(R.id.image_remove)
+    val textStudentName: TextView = itemView.findViewById(R.id.textViewName)
+    val textStudentId: TextView = itemView.findViewById(R.id.textViewId)
+    val imageEdit: ImageView = itemView.findViewById(R.id.imageEdit)
+    val imageRemove: ImageView = itemView.findViewById(R.id.imageRemove)
   }
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StudentViewHolder {
@@ -51,8 +51,7 @@ class StudentAdapter(private val students: MutableList<StudentModel>) : Recycler
     }
 
     holder.imageRemove.setOnClickListener {
-      val context = holder.itemView.context
-      AlertDialog.Builder(context)
+      AlertDialog.Builder(holder.itemView.context)
         .setTitle("Xóa sinh viên")
         .setMessage("Bạn có chắc chắn muốn xóa sinh viên này không?")
         .setPositiveButton("Xóa") { _, _ ->
@@ -65,7 +64,6 @@ class StudentAdapter(private val students: MutableList<StudentModel>) : Recycler
             }.show()
         }
         .setNegativeButton("Hủy", null)
-        .create()
         .show()
     }
   }
